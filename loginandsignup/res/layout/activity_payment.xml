@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header aligned to top -->
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/amount"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="433dp"
+        android:hint="type your amount"
+        android:inputType="number"
+        android:outlineAmbientShadowColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue"
+        android:gravity="start" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/payment"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="119dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="133dp"
+        android:backgroundTint="@color/blue"
+        android:text="load"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/pay2"
+        android:layout_width="119dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="128dp"
+        android:backgroundTint="@color/blue"
+        android:text="pay"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/upiid"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="625dp"
+        android:hint="type your upi"
+        android:outlineAmbientShadowColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:id="@+id/name"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="530dp"
+        android:hint="type your name"
+        android:outlineAmbientShadowColor="@color/blue"
+        android:textColorHint="@color/blue" />
+
+
+</RelativeLayout>
